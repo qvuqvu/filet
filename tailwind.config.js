@@ -16,6 +16,10 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'work-sans': ['Work Sans', 'sans-serif']
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
